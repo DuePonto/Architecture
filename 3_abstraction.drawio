@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2023-08-14T13:16:57.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="P5FCkNf_IIsjuzSu2fk5" version="21.6.8" type="device">
+  <diagram name="Страница — 1" id="uyMd2cRw9CvvQnKsTl4E">
+    <mxGraphModel dx="2048" dy="1826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="egb_J0o23Kl0-gwLekrc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="egb_J0o23Kl0-gwLekrc-5" target="egb_J0o23Kl0-gwLekrc-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egb_J0o23Kl0-gwLekrc-5" value="ERR" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="egb_J0o23Kl0-gwLekrc-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="egb_J0o23Kl0-gwLekrc-6" target="egb_J0o23Kl0-gwLekrc-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="egb_J0o23Kl0-gwLekrc-6" value="G-code transformation" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-130" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="egb_J0o23Kl0-gwLekrc-8" value="Receive from computer" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="-130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="egb_J0o23Kl0-gwLekrc-31" value="&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Извлечение G-code из Flash памяти&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Преобразование G-code =&amp;gt; Comands&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Передача cmnds в очередь сообщений CAN FD&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="egb_J0o23Kl0-gwLekrc-34" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Рассинхронизация&lt;/li&gt;&lt;li&gt;Engine error&lt;/li&gt;&lt;li&gt;Power suply error&lt;/li&gt;&lt;li&gt;Error TX/RX&lt;/li&gt;&lt;li&gt;Modules::err::circuit&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="egb_J0o23Kl0-gwLekrc-36" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="egb_J0o23Kl0-gwLekrc-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="egb_J0o23Kl0-gwLekrc-8" target="egb_J0o23Kl0-gwLekrc-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="30" as="sourcePoint" />
+            <mxPoint x="360" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
