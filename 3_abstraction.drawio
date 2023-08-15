@@ -1,37 +1,267 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T13:16:57.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="P5FCkNf_IIsjuzSu2fk5" version="21.6.8" type="device">
+<mxfile host="Electron" modified="2023-08-15T12:49:30.986Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="Tub44T6L37Uf0sXi0dxT" version="21.6.8" type="device">
   <diagram name="Страница — 1" id="uyMd2cRw9CvvQnKsTl4E">
-    <mxGraphModel dx="2048" dy="1826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3787" dy="2923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="egb_J0o23Kl0-gwLekrc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="egb_J0o23Kl0-gwLekrc-5" target="egb_J0o23Kl0-gwLekrc-34">
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-60" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="400" width="780" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="co1Is5-Nb3P85P1yTpH4-62" target="co1Is5-Nb3P85P1yTpH4-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="egb_J0o23Kl0-gwLekrc-5" value="ERR" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-130" width="140" height="70" as="geometry" />
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-62" value="G-code&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="620" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="egb_J0o23Kl0-gwLekrc-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="egb_J0o23Kl0-gwLekrc-6" target="egb_J0o23Kl0-gwLekrc-31">
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="co1Is5-Nb3P85P1yTpH4-64" target="co1Is5-Nb3P85P1yTpH4-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="egb_J0o23Kl0-gwLekrc-6" value="G-code transformation" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="-130" width="145" height="70" as="geometry" />
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-64" value="Перевод в cmnd" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="egb_J0o23Kl0-gwLekrc-8" value="Receive from computer" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="-130" width="140" height="70" as="geometry" />
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="co1Is5-Nb3P85P1yTpH4-67" target="co1Is5-Nb3P85P1yTpH4-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="egb_J0o23Kl0-gwLekrc-31" value="&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Извлечение G-code из Flash памяти&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Преобразование G-code =&amp;gt; Comands&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Передача cmnds в очередь сообщений CAN FD&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="242.5" y="40" width="160" height="160" as="geometry" />
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-67" value="Интерпритация cmnd" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="egb_J0o23Kl0-gwLekrc-34" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Рассинхронизация&lt;/li&gt;&lt;li&gt;Engine error&lt;/li&gt;&lt;li&gt;Power suply error&lt;/li&gt;&lt;li&gt;Error TX/RX&lt;/li&gt;&lt;li&gt;Modules::err::circuit&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="40" width="160" height="160" as="geometry" />
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-68" value="Формирование управляющей команды для периферии" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="egb_J0o23Kl0-gwLekrc-36" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="40" width="160" height="160" as="geometry" />
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-69" value="&lt;font color=&quot;#ff3333&quot;&gt;Получаем с пк&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="510" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="egb_J0o23Kl0-gwLekrc-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="egb_J0o23Kl0-gwLekrc-8" target="egb_J0o23Kl0-gwLekrc-36">
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-70" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" parent="1" source="co1Is5-Nb3P85P1yTpH4-69" target="co1Is5-Nb3P85P1yTpH4-62" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="30" as="sourcePoint" />
-            <mxPoint x="360" y="-20" as="targetPoint" />
+            <mxPoint x="1390" y="580" as="sourcePoint" />
+            <mxPoint x="1440" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="580" />
+              <mxPoint x="1390" y="530" />
+              <mxPoint x="1370" y="610" />
+              <mxPoint x="1290" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-71" value="&lt;font color=&quot;#ff3333&quot;&gt;Набор команд, который понимают модули внутри системы&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="620" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-72" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" parent="1" source="co1Is5-Nb3P85P1yTpH4-71" target="co1Is5-Nb3P85P1yTpH4-64" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="690" as="sourcePoint" />
+            <mxPoint x="1320" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1500" y="690" />
+              <mxPoint x="1450" y="640" />
+              <mxPoint x="1430" y="720" />
+              <mxPoint x="1350" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-73" value="&lt;font color=&quot;#ff3333&quot;&gt;На основе переданной cmnd создается команда управления конкретным драйвером&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="760" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-74" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" parent="1" source="co1Is5-Nb3P85P1yTpH4-73" target="co1Is5-Nb3P85P1yTpH4-67" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="830" as="sourcePoint" />
+            <mxPoint x="1370" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1550" y="830" />
+              <mxPoint x="1500" y="780" />
+              <mxPoint x="1480" y="860" />
+              <mxPoint x="1400" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-75" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" parent="1" source="co1Is5-Nb3P85P1yTpH4-73" target="co1Is5-Nb3P85P1yTpH4-68" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1600" y="830" as="sourcePoint" />
+            <mxPoint x="1400" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1580" y="870" />
+              <mxPoint x="1530" y="820" />
+              <mxPoint x="1510" y="900" />
+              <mxPoint x="1430" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="co1Is5-Nb3P85P1yTpH4-77" value="Жизненный цикл G- code" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="400" width="990" height="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-34" value="Допущение: Файл с G-code передаетя в принтер с помощью SD карты.&lt;br&gt;&lt;br&gt;&lt;br&gt;Default: Статус выполнения команды (функции) Обязательно проверяется внутри кода" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="305" y="665" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-38" target="uSG5X3GMJ9l9Fhrmyib4-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-38" target="uSG5X3GMJ9l9Fhrmyib4-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-42" target="uSG5X3GMJ9l9Fhrmyib4-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-38" value="Задача 3: Преобразовать команды G-code в cmnds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-40" target="uSG5X3GMJ9l9Fhrmyib4-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-40" value="1 подход:&amp;nbsp;&lt;br&gt;преобразование на борту головного модуля" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="1560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-42" target="uSG5X3GMJ9l9Fhrmyib4-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-42" value="2 подход:&amp;nbsp;&lt;br&gt;Передача G-code по CAN FD и преобразование G-code =&amp;gt; cmnds на каждом отдельно" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1560" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-43" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Какие шаги нужно пройти вне зависимости от выбранного подхода:&lt;/span&gt;&lt;/div&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;Перевод G-code в примитивные движения, котрые будут использоваться внутри модульной системы&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Проверка возможности выполнения команды при данной конфигурации принтера. Пример: не выходим ли мы за границыы печатного стола&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-212.5" y="1760" width="365" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-45" target="uSG5X3GMJ9l9Fhrmyib4-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="1170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-45" value="Задача 2: Передача G-code команд в буфер и из него на следующий шаг =&amp;gt; на декодер G-code инструкций" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-102.5" y="1260" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-53" target="uSG5X3GMJ9l9Fhrmyib4-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="1100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-47" value="Задача 1: Считать часть инструкций&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;c SD карты и передать их в преобразователь G-code =&amp;gt; Cmnds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-108.75" y="730" width="157.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-48" value="передаем сообщение об ошибке &lt;br&gt;(возможен переход в обработчик ошибок)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="1040" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-52" target="uSG5X3GMJ9l9Fhrmyib4-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-52" target="uSG5X3GMJ9l9Fhrmyib4-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-52" target="uSG5X3GMJ9l9Fhrmyib4-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-52" value="Проверка подключения" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-131.25" y="870" width="202.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-53" value="Считываем инструкции в буфер" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1040" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-54" value="&lt;font color=&quot;#ff3333&quot;&gt;START&lt;/font&gt;" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" target="uSG5X3GMJ9l9Fhrmyib4-53">
+          <mxGeometry x="-0.1654" y="-15" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="1120" as="sourcePoint" />
+            <mxPoint x="245" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="235" y="1090" />
+              <mxPoint x="225" y="1070" />
+              <mxPoint x="205" y="1100" />
+              <mxPoint x="195" y="1140" />
+              <mxPoint x="175" y="1160" />
+              <mxPoint x="165" y="1080" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-55" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" target="uSG5X3GMJ9l9Fhrmyib4-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="580" as="sourcePoint" />
+            <mxPoint x="25" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="25" y="620" />
+              <mxPoint x="-25" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-56" value="&lt;font color=&quot;#ff3333&quot;&gt;Driver SD карты&lt;/font&gt;" style="text;strokeColor=#FFFFFF;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="85" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-57" value="&lt;font color=&quot;#ff3333&quot;&gt;API(на PC можно написать)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1289" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-58" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-57" target="uSG5X3GMJ9l9Fhrmyib4-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="1450" as="sourcePoint" />
+            <mxPoint x="245" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="325" y="1390" />
+              <mxPoint x="245" y="1450" />
+              <mxPoint x="225" y="1370" />
+              <mxPoint x="215" y="1510" />
+              <mxPoint x="125" y="1370" />
+              <mxPoint x="155" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-59" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-57" target="uSG5X3GMJ9l9Fhrmyib4-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167.5" y="1270" as="sourcePoint" />
+            <mxPoint x="217.5" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="235" y="1210" />
+              <mxPoint x="195" y="1300" />
+              <mxPoint x="195" y="1220" />
+              <mxPoint x="175" y="1290" />
+              <mxPoint x="145" y="1230" />
+              <mxPoint x="125" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-61" target="uSG5X3GMJ9l9Fhrmyib4-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-61" value="Задача 4: Интерпритация cmnd в команду для управления конкретной периферией" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1950" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-62" value="Задача 4.2: передача команды на драйвер" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="2180" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-64" target="uSG5X3GMJ9l9Fhrmyib4-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-64" value="&lt;font color=&quot;#0000cc&quot;&gt;Пропускаем этап передачи данных по CAN FD&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1725" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-460" width="939" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-68" target="uSG5X3GMJ9l9Fhrmyib4-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-68" value="ERR" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="-310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-70" target="uSG5X3GMJ9l9Fhrmyib4-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-70" value="G-code transformation" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="759" y="-310" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-71" value="Receive from computer" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="479" y="-310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-72" value="&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Извлечение G-code из Flash памяти&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Преобразование G-code =&amp;gt; Comands&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Передача cmnds в очередь сообщений CAN FD&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="751.5" y="-140" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-73" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Рассинхронизация&lt;/li&gt;&lt;li&gt;Engine error&lt;/li&gt;&lt;li&gt;Power suply error&lt;/li&gt;&lt;li&gt;Error TX/RX&lt;/li&gt;&lt;li&gt;Modules::err::circuit&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1009" y="-140" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-74" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="-140" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uSG5X3GMJ9l9Fhrmyib4-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSG5X3GMJ9l9Fhrmyib4-71" target="uSG5X3GMJ9l9Fhrmyib4-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="819" y="-150" as="sourcePoint" />
+            <mxPoint x="869" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
